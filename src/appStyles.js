@@ -14,6 +14,10 @@ export const ContainerImage = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (min-width: 300px) and (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const Image = styled.img`
@@ -28,6 +32,10 @@ export const ContainerLogin = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+
+  @media (min-width: 300px) and (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 export const Form = styled.form`
